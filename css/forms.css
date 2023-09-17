@@ -1,0 +1,53 @@
+body{
+    background-color: ghostwhite ;
+}
+fieldset{
+    position: relative;
+    border: 3px solid grey;
+    width: 1000px;
+    background-color: #f26c29;
+    margin-left: 290px;
+    margin-top: 1.0%;
+}
+label{
+    font-weight: bold;
+    font-size: 15px;
+}
+legend{
+    font-weight: bold;
+    font-size: 25px;
+    color: #0000ff;
+}
+.esquerdo{
+    position: absolute;
+    left: 275px;
+    width: 500px;
+}
+.esquerdo2{
+    margin-left: 290px;
+}
+h1{
+    text-align: center;   
+    color: rgb(232, 67, 7);
+    padding-top: 15px;
+}
+input{
+    padding: 6px;
+    border-radius: 10px;
+    border: none;
+}
+input:hover {
+    background-color: burlywood;
+}
+.dataMinor {
+    position: absolute;
+    left: 275px;
+    width: 150px;
+}
+.logo {
+    width: 150px;
+    position: absolute;
+    left: 1150px;
+    top: 125px;
+}
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <!-- Formulario -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/forms.css">
+    <title>My First Formulary</title>
+</head>
+<body>
+
+    <h1>Personal Formulary</h1>
+
+    <!-- 1 A variavel não pode começar com número
+        2 A variavel nao pode ter caracter especial
+        3
+        4 -->
+    <form  method="GET">
+        <fieldset>
+            <legend> Personal Data</legend>
+            <!-- Personal Data // Dados pessoais  -->
+            <label for="nome">Type your name:</label>
+            <input class ="esquerdo" type="text" id="nome" name="nome" placeholder="Insert your name here" size="30"><br>
+            <br>
+            <label for="email">Type your email:</label>
+            <input class ="esquerdo" type="email" id="email" name="email" placeholder="Insert your email here" size="30" title="E-MAIL"><br>
+            <br>
+            <label for="password">Type your password:</label>
+            <input class ="esquerdo" type="password" id="pw" name="password" placeholder="Insert your password here" minlength="6" maxlength="10"><br>
+            <br>
+            <label for="password">Repeat your password:</label>
+            <input class ="esquerdo" type="password" id="pw" name="password" placeholder="Repeat your password here" minlength="6" maxlength="10"><br>
+            <br>
+            <label for="dmanasc">Birth date: </label>
+            <input class="dataMinor" type="date" id="dmanasc" name="dmanasc"><br><br>
+            <br>
+            <br>
+            <label for="course">Choose a course:</label><br><br>
+
+            <br>
+            <br>
+            
+            <input type="checkbox" id="uml" name="uml" value="uml">
+            <label for="uml">UML Training </label>
+            <br>
+            <input type="checkbox" id="css" name="css" value="css">
+            <label for="css">CSS Training </label>
+            <br><br>
+
+
+            <label for="Payment">Payment ways:</label><br>
+            <input type="radio" id="payment" name="payment" value="pix">
+            <label for="Payment">PIX</label><br>
+            <input type="radio" id="payment" name="payment" value="money">
+            <label for="Payment">Money</label><br>
+            <input type="radio" id="payment" name="payment" value="other">
+            <label for="Payment">Others</label><br>
+            <br>
+            
+            <label for="attachment">Attach a file:</label><br>
+            <input type="file" id="File" name="Files"> <br>
+                <p>
+                    <label for="opnion">Leave your opinion:</label><br>
+                    <textarea name="text" id="Text" cols="80" rows="8" placeholder="Type here your opinion(s)"></textarea>
+                </p>
+        </fieldset>
+            <input class="esquerdo2" type="submit" value="Send data" title="Click here to send">
+            
+            <input class="esquerdo2" type="reset" value="Clean data">
+
+            <img class = "logo" src="../images/fotodegato.jpg" alt="Gatinho" >
+    </form>
+
+</body>
+</html>
